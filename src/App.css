@@ -1,0 +1,63 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+header h1
+{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 50px;
+}
+.TodoForm
+{
+  display: flex;
+}
+.TodoForm input {
+  font-size: 20px;
+  color: rgb(6, 6, 99);
+  width: 80%;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid  black;
+  padding: 5px;
+}
+.TodoForm button
+{
+  margin-left: 15px;
+  padding: 15px 20px;
+  font-size: larger;
+  background-color:black;
+  color: white;
+  border-radius: 5px;
+
+}
+.todo{
+  position: relative;
+  width: 70%;
+  margin-top: 1rem;
+  background-color:  rgb(241, 218, 196);
+  color: black;
+  padding: 1.1rem 3rem;
+  border-radius: 5px;
+}
+.text
+{
+ font-size: large;
+}
+.icons{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon{
+  cursor: pointer;
+  font-size: 20px;
+}
