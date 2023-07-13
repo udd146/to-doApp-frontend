@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const baseUrl="http://localhost:5000/"
+const baseUrl="https://to-doapp-backend-zmtk.onrender.com/"
 
 export const getAllTodo =(setToDo)=>{
     axios
